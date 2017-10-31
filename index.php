@@ -83,9 +83,7 @@
   <header id="site-header">
 
     <a href="" class="tmm-glyph">
-      <span class="tmm-glyph-glyph">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394.36 394.37"><defs><style>.cls-1,.cls-3{fill:#006837;}.cls-2,.cls-5{fill:#fff;}.cls-3,.cls-5{isolation:isolate;font-family:HelveticaNeue-CondensedBlack, Helvetica Neue;}.cls-3{font-size:172px;}.cls-4{fill:none;stroke:#006837;stroke-miterlimit:10;stroke-width:20px;}.cls-5{font-size:172.13px;}</style></defs><title>logo-retouched</title><path class="cls-1" d="M197.18,9.35v375c-102.68,0-186-82.68-187.16-185.09,0-.7,0-1.39,0-2.09v-.33c0-.81,0-1.61,0-2.42C11.13,92,94.5,9.35,197.18,9.35Z"/><path class="cls-2" d="M197.18,9.68v375c102.68,0,186-82.68,187.16-185.09,0-.7,0-1.39,0-2.09v-.33c0-.81,0-1.61,0-2.42C383.23,92.35,299.86,9.68,197.18,9.68Z"/><text class="cls-3" transform="translate(216.12 257.47)">M</text><path class="cls-4" d="M384.36,196.86v.33c0,.7,0,1.39,0,2.09-1.11,102.41-84.48,185.09-187.16,185.09S11.13,301.69,10,199.28c0-.7,0-1.39,0-2.09v-.33c0-.81,0-1.61,0-2.42C11.49,92.33,94.72,10,197.18,10S382.87,92.33,384.34,194.44C384.35,195.25,384.36,196.05,384.36,196.86Z"/><text class="cls-5" transform="translate(69.64 258.22)">T</text></svg>
-      </span>
+        <img class="tmm-glyph-glyph" src="images/tmm-logo.png">
       <span class=tmm-glyph-name>
         <h1 class="tmm-glyph-name">TrackMyMeds</h1>
       </span>
@@ -127,7 +125,7 @@
 
         <div id="main-content">
           <h1 class="site-title">
-            <img src="images/tmm-logo.svg">
+            <img src="images/tmm-logo.png">
             <span class="primary-heading-text">TrackMyMeds</span>
             <span class="sub-heading">Medication Tracker and Reminder App</span>
           </h1>
@@ -148,7 +146,7 @@
         <h2>What is TrackMyMeds?</h2>
         <div class="panel-bridge"></div>
         <ul class="what-is-tmm">
-          <h3>An Australian medication tracking and reminder application notifying users to take medication</h3>
+          <h3>An Australian medication tracking and reminder application notifying users when to take medication</h3>
           <!-- <li></li>
           <li></li>
           <li></li>
@@ -159,7 +157,7 @@
 
         <div class="section-row-users">
 
-          <section class="features">
+          <section class="features section-search">
             <img class="feature-icons" src="images/feature-search.svg" alt="feature-icons">
             <h3>Search</h3>
             <p class="users-p">Search and select from a complete listing of all medicines registered in the Australian Medicines Terminology (AMT).</p>
@@ -174,7 +172,7 @@
 
 
 
-          <section class="features">
+          <section class="features section-remind">
             <img class="feature-icons" src="images/feature-track.svg" alt="feature-icons">
             <h3>Track</h3>
             <p class="users-p">Track your medication progress by viewing your Medication Report. View your Scheduled, In-Progress, and Completed Medication.</p>
@@ -186,7 +184,7 @@
           </section>
 
 
-          <section class="features">
+          <section class="features section-track">
             <img class="feature-icons" src="images/feature-reminder.svg" alt="feature-icons">
             <h3>Remind</h3>
             <p class="users-p">Be reminded when to take medication. Set reminder frequency and be notified once, twice, or multiple times daily.</p>
@@ -252,7 +250,7 @@
         <h2>Who is TrackMyMeds for?</h2>
         <div class="panel-bridge"></div>
         <ul class="what-is-tmm">
-          <h3>Made for Patients taking pharmaceutical drugs, and Carers/Nurses caring for Patients</h3>
+          <h3>Made for Patients taking pharmaceutical drugs, and Carers wanting to monitor their Patients.</h3>
         </ul>
 
         <div class="section-row-users">
@@ -270,7 +268,8 @@
 
           <section class="nurse">
             <img class="user-icons" src="images/user-carer.png" alt="user-carer.png">
-            <h3>Nurses</h3>
+            <h3>Carers</h3>
+            <p class="users-p">Carers may include: Nurses, Physicians, Medical Practitioners, General Practitioners, Pharmacists, and Medical Doctors.</p>
             <p class="users-p">TMM connects you with patient users helping you manage your patients:</p>
             <ul class="users-ul">
               <li><i class="fa fa-check-square-o "></i> Search for Medication Info</li>
@@ -468,7 +467,6 @@
 
                     <div class="sponsors">
                       <a href="http://www.qut.edu.au/" target="_blank" class="sponsor sponsor-qut">QUT<img src="images/qut_logo_full.png"></a>
-                      <a href="http://www.digitalhealth.gov.au/" target="_blank" class="sponsor sponsor-qut">Australian Digital Health Agency<img src="images/digital-health.png"></a>
                     </div>
 
                 </div>
